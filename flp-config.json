@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "cuscrmmytasksExtension",
+        "description": "Extensão do My Tasks",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/webapp",
+        "appUrl": "#cuscrmmytasksExtension-Display",
+        "navigationComponentName": "cus.crm.mytasks.cuscrmmytasksExtension",
+        "intentSemanticObject": "cuscrmmytasksExtension",
+        "intentAction": "Display",
+        "html5ApplicationName": "cuscrmmytasksextension",
+        "HCPParentApplicationName": "cuscrmmytasks"
+    },
+    "assignment": {
+        "groups": [
+            "3c46b217-13b8-4237-ab39-fcd47b7368cd-1457197656233"
+        ],
+        "contentPackages": [
+            "00000000-0000-2222-0000-00000000"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Extensão do My Tasks",
+        "subtitle": "Web IDE",
+        "searchKeywords": "Extensão do My Tasks,Web IDE",
+        "displayIconUrl": "sap-icon://workflow-tasks",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns="sap.m">
+	<!-- The following controls were copied from the parent view -->
+	<core:Item key="open" text="{i18n&gt;LIST_FILTER_ALL_OPEN}" xmlns:core="sap.ui.core"/>
+	<core:Item key="dueToday" text="{i18n&gt;LIST_FILTER_DUE_TODAY}" xmlns:core="sap.ui.core"/>
+    <core:Item key="dueThisMonth" text="Para este mês"/>
+    <core:SeparatorItem />
+	<!--<core:Item key="dueThisWeek" text="{i18n&gt;LIST_FILTER_DUE_THIS_WEEK}" xmlns:core="sap.ui.core"/> -->
+	<core:Item key="completed" text="{i18n&gt;LIST_FILTER_COMPLETED}" xmlns:core="sap.ui.core"/>
+</core:FragmentDefinition>

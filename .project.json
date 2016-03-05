@@ -1,0 +1,75 @@
+{
+  "generation": [
+    {
+      "templateId": "fioriexttemplate.extensionProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Sat, 05 Mar 2016 18:05:01 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Sat, 05 Mar 2016 19:08:14 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Sat, 05 Mar 2016 19:13:17 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollerhook",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Sat, 05 Mar 2016 19:43:46 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "extensibility": {
+    "controllers": {
+      "Main": "/Main.controller.js",
+      "S2": "/view/S2.controller.js",
+      "S3": "/view/S3.controller.js",
+      "S4": "/view/S4.controller.js"
+    },
+    "views": {
+      "Main": "/Main.view.xml",
+      "S2": "/view/S2.view.xml",
+      "S3": "/view/S3.view.xml",
+      "S3New": "/view/S3New.view.xml",
+      "S4": "/view/S4.view.xml",
+      "S4New": "/view/S4New.view.xml"
+    },
+    "fragments": {
+      "ErrorMessageDialog": "/view/ErrorMessageDialog.fragment.xml",
+      "FollowupDialog": "/view/FollowupDialog.fragment.xml",
+      "ProcessTypeDialog": "/view/ProcessTypeDialog.fragment.xml"
+    },
+    "type": "hcp",
+    "component": "/Component.js",
+    "configuration": "/Configuration.js",
+    "system": {
+      "account": "b62dbc9f6",
+      "type": "subscription",
+      "providerAccount": "fioritrial",
+      "providerName": "cuscrmmytasks",
+      "application": "cuscrmmytasks"
+    },
+    "parentResourceRootUrl": "/ext/parent/undefined/",
+    "namespace": "cus.crm.mytasks",
+    "resourceBundle": "i18n/i18n.properties"
+  },
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "buildRequired": true
+  },
+  "hcpdeploy": {
+    "account": "b62dbc9f6",
+    "name": "cuscrmmytasksextension",
+    "lastVersionWeTriedToDeploy": "1.0.1"
+  }
+}
